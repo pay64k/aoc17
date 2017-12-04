@@ -49,21 +49,6 @@ day_2a([H | T], Index, Step, Len, Acc) ->
     _Else ->
       day_2a(T, Index + 1, Step, Len, Acc)
   end.
-%%
-%%check_next_in_list_2a([H | _T], Steps) ->
-%%  H.
-
-%%find_next_digit(List, Steps) ->
-%%  check_next(List, _Current = 1, Steps).
-%%
-%%check_next(_List, Current, Steps) ->
-%%
-%%
-%%check_next(_List, Current, Steps) when Current >= Steps ->
-%%  not_equal.
-
-
-
 
 %%-------------------------------------
 
